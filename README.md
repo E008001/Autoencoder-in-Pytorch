@@ -45,4 +45,4 @@ class Autoencoder(nn.Module):
         return x
 ```
 auto
-[link](http://www.sahhay.com/)
+
