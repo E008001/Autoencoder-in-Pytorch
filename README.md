@@ -1,5 +1,5 @@
 # Autoencoder-in-Pytorch
-Implement Convolutional Autoencoder in PyTorch with CUDA
+Implement Convolutional Autoencoder in PyTorch with CUDA   
 The Autoencoders, a variant of the artificial neural networks, are applied in the image process especially to reconstruct the images.
 The image reconstruction aims at generating a new set of images similar to the original input images.  
 ### Convolutional Autoencoder  
