@@ -14,8 +14,8 @@ it learns a distributed representation of our training data, and can even be use
 
 An autoencoder model contains two components:  
 
-**An encoder that takes an image as input, and outputs a low-dimensional embedding (representation) of the image.
-A decoder that takes the low-dimensional embedding, and reconstructs the image.**
+***An encoder that takes an image as input, and outputs a low-dimensional embedding (representation) of the image.  
+A decoder that takes the low-dimensional embedding, and reconstructs the image.***
 
 
 ```
