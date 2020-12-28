@@ -18,6 +18,9 @@ An autoencoder model contains two components:
 A decoder that takes the low-dimensional embedding, and reconstructs the image.***
 
 
+
+### Variational autoencoders.
+
 ```
 import numpy as np
 import torch
@@ -55,5 +58,5 @@ class Autoencoder(nn.Module):
         x = self.decoder(x)
         return x
 ```
-auto 
+
 
