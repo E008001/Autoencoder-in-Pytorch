@@ -20,6 +20,9 @@ A decoder that takes the low-dimensional embedding, and reconstructs the image.*
 
 
 ### Variational autoencoders.
+### stacked autoencoder
+
+### Sparse autoencoders
 
 ```
 import numpy as np
