@@ -24,6 +24,9 @@ They are generally applied in the task of image reconstruction to minimize recon
 ### stacked autoencoder
 
 ### Sparse autoencoders
+### Denoising autoencoders
+### Principal components analysis (PCA) VS autoencoders
+![image]()
 
 ```
 import numpy as np
