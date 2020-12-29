@@ -60,15 +60,15 @@ for img_name in tqdm(train['Image_Name']):
     img = img.astype('float32')
     # appending the image into the list
     train_img.append(img)
-    ```
-    crate Validation 
-~~~
+```
+crate Validation 
+```
 # create validation set
 train_x, val_x, train_y, val_y = train_test_split(train_x, train_y, test_size = 0.2)
 (train_x.shape, train_y.shape), (val_x.shape, val_y.shape)
-~~~
+```
 converting training images into torch format
-~~~
+```
 # converting training images into torch format
 train_x = train_x.reshape(81, 1, 28, 28)
 train_x  = torch.from_numpy(train_x)
@@ -79,9 +79,9 @@ train_y = torch.from_numpy(train_y)
 
 # shape of training data
 train_x.shape, train_y.shape
-~~~
+```
 converting validation images into torch format
-~~~
+```
 # converting validation images into torch format
 val_x=val_x.reshape(21, 1, 28, 28)
 val_x=torch.from_numpy(val_x)
@@ -94,7 +94,7 @@ val_y=torch.from_numpy(val_y)
 
 # shape of validation data
 val_x.shape, val_y.shape
-~~~
+```
 Model
 ```
 # Writing our model
@@ -117,6 +117,7 @@ class Autoencoder(nn.Module):
         x = self.decoder(x)
         return x
 ```
+
 ### segmentation 
 ![image](https://github.com/E008001/Autoencoder-in-Pytorch/blob/main/U-Net-model.png)  
 
