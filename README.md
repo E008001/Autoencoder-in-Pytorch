@@ -62,6 +62,9 @@ class Autoencoder(nn.Module):
         x = self.decoder(x)
         return x
 ```
-### segmentation  
+### segmentation 
+![image](https://github.com/E008001/Autoencoder-in-Pytorch/blob/main/U-Net-model.png)  
+
 ![image](https://github.com/E008001/Autoencoder-in-Pytorch/blob/main/AE-segmentation.png)  
+
 ![image](https://github.com/E008001/Autoencoder-in-Pytorch/blob/main/CNN-AE.jpg)  
