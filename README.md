@@ -12,7 +12,9 @@ it learns a distributed representation of our training data, and can even be use
 An autoencoder model contains two components:  
 
 ***An encoder that takes an image as input, and outputs a low-dimensional embedding (representation) of the image.  
-A decoder that takes the low-dimensional embedding, and reconstructs the image.***
+A decoder that takes the low-dimensional embedding, and reconstructs the image.***  
+
+![image](https://github.com/E008001/Autoencoder-in-Pytorch/blob/main/autoencoder-model.png)  
 
 ### Convolutional Autoencoder  
 Convolutional Autoencoder is a variant of Convolutional Neural Networks that are used as the tools for unsupervised learning of convolution filters.
