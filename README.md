@@ -61,4 +61,5 @@ class Autoencoder(nn.Module):
         return x
 ```
 
-
+![image]()
+![image](https://github.com/E008001/Autoencoder-in-Pytorch/blob/main/CNN-AE.jpg)
