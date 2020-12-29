@@ -26,7 +26,7 @@ They are generally applied in the task of image reconstruction to minimize recon
 ### Sparse autoencoders
 ### Denoising autoencoders
 ### Principal components analysis (PCA) VS autoencoders
-![image]()
+![image](https://github.com/E008001/Autoencoder-in-Pytorch/blob/main/pca-AE.png)
 
 ```
 import numpy as np
