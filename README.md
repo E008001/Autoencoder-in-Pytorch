@@ -2,9 +2,6 @@
 Implement Convolutional Autoencoder in PyTorch with CUDA   
 The Autoencoders, a variant of the artificial neural networks, are applied in the image process especially to reconstruct the images.
 The image reconstruction aims at generating a new set of images similar to the original input images.  
-### Convolutional Autoencoder  
-Convolutional Autoencoder is a variant of Convolutional Neural Networks that are used as the tools for unsupervised learning of convolution filters.
-They are generally applied in the task of image reconstruction to minimize reconstruction errors by learning the optimal filters they can be applied to any input in order to extract features. Convolutional Autoencoders are general-purpose feature extractors differently from general autoencoders that completely ignore the 2D image structure. In autoencoders, the image must be unrolled into a single vector and the network must be built following the constraint on the number of inputs.  
 
 ### Autoencoder  
 To demonstrate the use of convolution transpose operations, we will build an autoencoder.  
@@ -17,7 +14,9 @@ An autoencoder model contains two components:
 ***An encoder that takes an image as input, and outputs a low-dimensional embedding (representation) of the image.  
 A decoder that takes the low-dimensional embedding, and reconstructs the image.***
 
-
+### Convolutional Autoencoder  
+Convolutional Autoencoder is a variant of Convolutional Neural Networks that are used as the tools for unsupervised learning of convolution filters.
+They are generally applied in the task of image reconstruction to minimize reconstruction errors by learning the optimal filters they can be applied to any input in order to extract features. Convolutional Autoencoders are general-purpose feature extractors differently from general autoencoders that completely ignore the 2D image structure. In autoencoders, the image must be unrolled into a single vector and the network must be built following the constraint on the number of inputs.  
 
 ### Variational autoencoders.
 ### stacked autoencoder
