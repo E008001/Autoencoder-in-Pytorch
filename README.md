@@ -7,7 +7,7 @@ The image reconstruction aims at generating a new set of images similar to the o
 To demonstrate the use of convolution transpose operations, we will build an autoencoder.  
 
 An autoencoder is not used for supervised learning. We will no longer try to predict something about our input. Instead, an autoencoder is considered a generative model:  
-it learns a distributed representation of our training data, and can even be used to generate new instances of the training data.  
+it learns a distributed representation of our training data, and can even be used to generate new instances of the training data..  
 
 An autoencoder model contains two components:  
 
@@ -18,7 +18,7 @@ A decoder that takes the low-dimensional embedding, and reconstructs the image.*
 
 ### Convolutional Autoencoder  
 Convolutional Autoencoder is a variant of Convolutional Neural Networks that are used as the tools for unsupervised learning of convolution filters.
-They are generally applied in the task of image reconstruction to minimize reconstruction errors by learning the optimal filters they can be applied to any input in order to extract features. Convolutional Autoencoders are general-purpose feature extractors differently from general autoencoders that completely ignore the 2D image structure. In autoencoders, the image must be unrolled into a single vector and the network must be built following the constraint on the number of inputs.  
+They are generally applied in the task of image reconstruction to minimize reconstruction errors by learning the optimal filters they can be applied to any input in order to extract features. Convolutional Autoencoders are general-purpose feature extractors differently from general autoencoders that completely ignore the 2D image structure. In autoencoders, the image must be unrolled into a single vector and the network must be built following the constraint on the number of inputs. 
 ![image](https://github.com/E008001/Autoencoder-in-Pytorch/blob/main/structure-Convolutional-AutoEncoders.png)
 ### Variational autoencoders.
 ### stacked autoencoders
